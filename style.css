@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: gray;
+	background-image: url( Colourwash-Quildting.jpg);
+	background-attachment: fixed;
+}
+div page-content{
+	background-color: darkgray;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+header{
+	z-index: 1;
+	width: 100%;
+	padding: 0px;
+	height: 60px;
+	position: fixed;
+	top: 0;
+	margin: 0;
+	border-bottom: 1px;
+	border-bottom-color: white;
+	transition-duration: 1s;
+
+}
+
+article.textohome{
+    font-family: 'Arima Madurai';font-size: 18px;
+	font-size: 20px;
+	background-color: rgba(247,244,244,0.34);
+	margin: 15px;
+	width: 50%;
+	height: auto;
+	padding: 20px;
+	float: right;
+	padding-bottom: -62px;
+	
+}
+.behance{
+width: 20%;
+	float: left
+}
+
+article.textoperfil{
+    font-family: 'Arima Madurai';font-size: 22px;
+	font-size: 18px;
+	margin: 15px;
+	width: 90%;
+	height: auto;
+	padding: 20px;
+	
+}
+
+section.home{
+	padding-top: 62px;
+	width: 100%;
+	height: 600px;
+	background-image: url(background.JPG);
+	
+}
+section.content{
+	min-width: 100%;
+    height: 600px;
+    -webkit-transition: margin-left .8s ease-in-out;
+    -moz-transition: margin-left .8s ease-in-out;
+    -o-transition: margin-left .8s ease-in-out;
+    transition: margin-left .8s ease-in-out;
+}
+.content:target{
+    margin-left:0;
+}
+li{
+	text-align: center;
+	display: inline;
+	float: left;
+	padding: 12px;
+	width: inherit;
+	background-color: rgba(228,228,228,0.47);
+	margin-left: 1px;
+	margin-right: 1px;
+}
+.portifolio{	
+	padding-top: 62px;
+	height: inherit;
+	
+}
+.perfil{
+		padding-top: 62px;
+	    background-color:  rgba(47,47,47,0.91);
+	    height: inherit;
+		color: white;
+}
+.form{
+		padding-top: 62px;
+    	background-color: rgba(47,47,47,0.91);
+	    height: inherit;
+		color: white;
+}
+form{
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 50%; 
+	color:white;;
+}
+li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	display: block;
+	text-decoration-style: dashed;
+
+}
+li a:hover{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;;
+	display: block;
+
+}
+h1{
+	color: white;
+}
+
+a{
+	display: block;
+    padding: 8px;
+    background-color: rgba(228,228,228,0.47);
+}
+img{
+	padding: 10px;
+}
+button{
+	background: white;
+	float: right;
+	background-color: white;
+	color: black;
+}
+ol{
+	float: right;
+	 margin: 0;
+    padding: 0;
+}
+ol li:hover {
+    background-color: #EF0E54;
+	border-bottom-color: black;
+	border-bottom: 2px;
+}
+footer{
+	background-color: darkgray;
+	bottom: 0;
+}
+.nome_edna{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	float: left;
+	padding-left: 20px;
+	padding-top: -15px;
+	text-decoration:overline;
+	height: inherit;
+}
+.nome_edna a{
+	text-decoration: none;
+	display: block;
+	color: inherit;
+}
+.nome_edna a:active{
+	text-decoration: none;
+	display: block;
+	color: inherit;
+}
+.nome_edna a:hover{
+	text-decoration: none;
+	display: block;
+	color: inherit;
+}
